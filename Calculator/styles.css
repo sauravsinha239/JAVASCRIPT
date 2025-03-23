@@ -4,24 +4,24 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: hsl(0, 0%, 95%);
+    background-color: hsl(188, 58%, 87%)
 }
 
 #calculator {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: hsl(0, 0%, 15%);
-    border-radius: 50px;
+    background-image: linear-gradient(rgb(188, 226, 252), rgb(25, 90, 116));
     overflow: hidden;
-    max-width: 500px;
+    max-width: 300px;
+    border-radius: 20px;
 }
 
 #display {
     width: 100%;
-    padding: 20px;
+    padding: 8px;
     font-size: 5rem;
     text-align: left;
     border: none;
-    background-color: hsl(0, 0%, 11%);
+    background-image: linear-gradient(rgb(157, 175, 187), rgb(25, 90, 116));
     color: white;
 
 }
@@ -29,8 +29,8 @@ body {
 #keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    padding: 20px;
+    gap: 20px;
+    padding: 10px;
 }
 
 button {
@@ -38,29 +38,38 @@ button {
     height: 50px;
     border-radius: 50px;
     border: none;
-    color: white;
-    background-color: hsl(0, 0%, 30%);
+    color: rgb(255, 79, 79);
+    /* background-image: linear-gradient(rgb(188, 226, 252), rgb(25, 90, 116)); */
     font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
 
 }
 
+h2 {
+    font-size: .8rem;
+    color: green;
+}
+.eq{
+    background-color: black;
+}
+
 button:hover {
-    background-color: rgba(250, 223, 189, 0.671);
+    background-color: rgba(0, 133, 241, 0.671);
 
 }
 
 button:active {
-    background-color: greenyellow;
+    background-color: rgb(153, 255, 0);
 }
 
 .opretor-btn {
-    background-color: hsl(35, 100%, 55%);
+    background-color: hsl(216, 85%, 8%);
+
 }
 
 .opretor-btn:hover {
-    background-color: hsl(35, 100%, 65%);
+    background-color: hsl(216, 89%, 59%);
 }
 
 .opretor-btn:active {
